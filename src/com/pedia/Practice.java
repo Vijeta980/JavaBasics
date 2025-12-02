@@ -2,15 +2,23 @@ package com.pedia;
 
 public class Practice{
 	public static void main(String[] args) {
-		int n=5;
+		int[] arr= {10,20,10,30,50};
+		int n=arr.length;
 		
-		for(int i=1;i<=2*n-1;i++) {
-			int stars=i;
-			if(i>n) stars=2*n-i;
-			for(int j=1;j<=stars;j++) {
-				System.out.print("*");
+		for(int i=0;i<n;i++) {
+			for(int j=i+1;j<n;j++) {
+				if(arr[i]==arr[j]) {
+					for(int k=j;k<n-1;k++) {
+						arr[k]=arr[k+1];
+					}
+					n--;
+					j--;
+					
+				}
 			}
-			System.out.println();
+		}
+		for(int i=0;i<n;i++) {
+			System.out.print(arr[i]+" ");
 		}
 		
 	}

@@ -24,3 +24,23 @@ public class SelectionSort {
 	}
 
 }
+
+
+//public class SelectionSort{
+//	public static void main(String[] args) {
+//		int[] nums= {1,5,4,3,2};
+//		
+//		for(int i=0;i<=nums.length-2;i++) {
+//			for(int j=i+1;j<=nums.length-1;j++) {
+//				if(nums[i]>nums[j]) {
+//					int temp=nums[i];
+//					nums[i]=nums[j];
+//					nums[j]=temp;
+//				}
+//			}
+//		}
+//		for(int num:nums) {
+//			System.out.print(num+" ");
+//		}
+//	}
+//}
