@@ -4,6 +4,25 @@ package com.pedia;
 //Input: dividend = 10, divisor = 3
 //Output: 3
 
+
+//class Solution {
+//    public int divide(int dividend, int divisor) {
+//        int count=0;
+//        int a=Math.abs(dividend);
+//        int b=Math.abs(divisor);
+//
+//        while(a>=b){
+//            a=a-b;
+//            count++;
+//        }
+//        if(dividend <0 || divisor <0){
+//            return -count;
+//        }
+//        return count;
+//            }
+//            
+//}
+
 public class DivIntegers {
 	public static void main(String[] args) {
 		int dividend=-10;
