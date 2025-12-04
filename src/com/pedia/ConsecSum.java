@@ -24,3 +24,6 @@ public class ConsecSum {
 	}
 
 }
+
+
+//////////Sliding window///////////
