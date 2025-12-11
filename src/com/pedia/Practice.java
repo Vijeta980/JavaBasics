@@ -24,10 +24,25 @@ import java.util.Map;
 //		
 //	}
 //}
-
+//Insertion//////////
 public class Practice{
 	public static void main(String[] args) {
+		int[] num= {50,20,10,30,40};
 		
+		for(int i=1;i<num.length;i++) {
+			int j=i;
+			while(j>0 && num[j-1]>num[j]) {
+				int temp=num[j];
+				num[j]=num[j-1];
+				num[j-1]=temp;
+				j--;
+			}
+			
+			
+		}
+		for(int arr:num) {
+			System.out.print(arr+" ");
+		}
 		
 	}
 }
