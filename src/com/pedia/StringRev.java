@@ -2,7 +2,7 @@ package com.pedia;
 
 public class StringRev {
 	public static void main(String[] args) {
-		String str="Vijeta";
+		String str="Madam";
 		String s=str.toLowerCase();
 		String rev="";
 		
